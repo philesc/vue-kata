@@ -11,11 +11,9 @@ const employees = [
 </script>
 
 <template>
-  <DataTable :value="employees" tableStyle="min-width: 50rem">
+  <DataTable :value="employees" tableStyle="min-width: 50rem" data-testid="employee-table">
     <Column field="name" header="Name"></Column>
     <Column field="age" header="Age"></Column>
   </DataTable>
+  <button>Embauchable le dimanche</button>
 </template>
-
-<style scoped>
-</style>
