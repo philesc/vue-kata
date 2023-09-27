@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import EmployeeReport from "@/App.vue";
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <EmployeeReport />
   </main>
 </template>
